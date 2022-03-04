@@ -289,22 +289,24 @@ textarea {
 .jj-list-con li {
     box-sizing: border-box; /*以 IE 盒子模型的 width 为标准*/
     padding: 1px 1px; /*设置 div 的内边距*/
-    width: 16.6%; /*div 等分成 6 部分*/
+    width: 5%; /*div 等分成 6 部分*/
+    min-width: 90px;
     float: left;
     overflow: hidden;
     text-overflow:ellipsis;
     white-space: nowrap;
+    margin: 0 4px 0 4px;
 }
 .jj-list-con li a{
     display: block;
     /*background: rgba(230, 247, 255, 0.96);*/
     background: #f2f2f2;
     color:rgba(49, 70, 89, 1);
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
-    padding-left: 1.7em;
-    line-height: 44px;
-    transition: all 0.2s;
+    padding-left: 1.0em;
+    line-height: 40px;
+    transition: all 0.4s;
     border-radius: 2px;
 }
 .jj-list-con li a img{
