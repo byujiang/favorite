@@ -41,7 +41,7 @@
       <div class="container">
         <div class="greeting"><div id="greetings" class="greetings">Hello ...</div></div>
         <div class="poem"><a href="https://gushi.ci/" target="_blank" rel="noopener noreferrer">今日诗词</a>：</span><span id="gushici" class="poem_sentence">正在加载古诗词......</span><span id="poem_info" class="poem_info"></div>
-        <div id="he-plugin-simple" class="qweather" style="color:aliceblue;"></div>
+        <div id="he-plugin-simple" class="qweather" style="background-color: white;"></div>
         <div class="about"><span><a href="https://amito.me" target="_blank" rel="noopener noreferrer">博客</a></span><span><a href="https://amito.me/about" target="_self">关于</a></span></div>
       </div>
       <!-- <div id="clock" class="clock">北京时间</div> -->
@@ -164,15 +164,18 @@
 <footer class="inner-center footer">
   <div class="copyright">
     <span>
-      <a href="https://eallion.com/copyright/" target="_self">
+      <a href="https://amito.me/copyright/" target="_self">
         <img src="https://img.shields.io/badge/Copyright-%C2%A9%202022-blue?style=flat&labelColor=4285f4&color=ea4335">
       </a>
+      &nbsp;
       <a href="https://amito.cme" target="_self">
-        <img src="https://img.shields.io/badge/Domain-eallion.com-blue?style=flat&labelColor=fbbc05&color=4285f4">
+        <img src="https://img.shields.io/badge/Domain-amito.me-blue?style=flat&labelColor=fbbc05&color=4285f4">
       </a>
+      &nbsp;
       <a href="https://amito.me/about/" target="_self">
-        <img src="https://img.shields.io/badge/Author-%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%B0%8F%E8%9C%97%E7%89%9B-blue?style=flat&labelColor=34a853&color=ea4335">
+        <img src="https://img.shields.io/badge/Author-减肥中的熊-blue?style=flat&labelColor=34a853&color=ea4335">
       </a>
+      &nbsp;
       <a href="https://github.com/byujiang/favorite/commits/master" target="_blank" rel="noopener">
         <img src="https://img.shields.io/github/last-commit/byujiang/favorite/master?logo=git&label=Last%20commit">
       </a>
@@ -192,7 +195,7 @@
     if ('serviceWorker' in navigator) {
       // Use the window load event to keep the page load performant
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js');
+        navigator.serviceWorker.register('static/js/service-worker.js');
       });
     }
   </script>
