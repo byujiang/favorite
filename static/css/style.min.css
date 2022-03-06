@@ -521,7 +521,7 @@ header {
         width: 10%; /*div 等分成 3 部分*/
     }
     .jj-list-con li a {
-        padding: 0 0.7em;
+        padding: 0 0.3em;
         width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
