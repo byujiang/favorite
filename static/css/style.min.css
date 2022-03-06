@@ -24,11 +24,11 @@ a {
 }
 html, body {
     background: rgb(57, 57, 59);
-    background: url(/static/img/background.png) no-repeat center fixed;
+    background: url(/static/img/background.png) no-repeat fixed 100% 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 120vh 100vw;
+    background-size: cover;
     min-height: 110%;
     height: auto !important;
     height: 110%;
