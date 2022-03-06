@@ -24,7 +24,7 @@ a {
 }
 html, body {
     background: rgb(57, 57, 59);
-    background: url(/static/img/background.png) no-repeat fixed 120% 120%;
+    background: url(/static/img/background.png) no-repeat fixed 100% 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
