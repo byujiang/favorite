@@ -250,14 +250,14 @@ textarea {
     min-width: 44px;
     height: 44px;
     line-height: 26px;
-    background: url(/static/img/search.png) #1890ff center no-repeat;
+    /* background: url(/static/img/search.png) #1890ff center no-repeat; */
     -webkit-background-size: 30px 30px;
     background-size: 30px 30px;
     color: #fff;
     font-size: 18px;
     text-align: center;
     font-family: 'Noto Sans SC', sans-serif;
-    border: 0px;
+    border: 1px solid #d2d2d2;
     margin-left:5px;
     cursor: pointer;
 }
@@ -303,7 +303,7 @@ textarea {
     box-sizing: border-box; /*以 IE 盒子模型的 width 为标准*/
     padding: 1px 1px; /*设置 div 的内边距*/
     width: 6%; /*div 等分成 16 部分*/
-    min-width: 100px;
+    min-width: 10vw;
     float: left;
     overflow: hidden;
     text-overflow: ellipsis;
