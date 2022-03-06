@@ -29,6 +29,8 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
+    height: auto !important;
     height: 100%;
 }
 input[type="button"], input[type="submit"], input[type="reset"] {
@@ -252,7 +254,7 @@ textarea {
     min-width: 44px;
     height: 44px;
     line-height: 26px;
-    /* background: url(/static/img/search.png) #1890ff center no-repeat; */
+    background: url(/static/img/search.png) #1890ff center no-repeat;
     -webkit-background-size: 30px 30px;
     background-size: 30px 30px;
     color: #fff;
