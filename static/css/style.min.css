@@ -514,6 +514,9 @@ header {
     }
 }
 @media screen and (max-device-width: 1259px) {
+    .inner-center, .main {
+        width:90vw;
+    }
     .jj-list-con li {
         width: 10%; /*div 等分成 3 部分*/
     }
