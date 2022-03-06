@@ -314,7 +314,7 @@ textarea {
     display: block;
     /* background: #4c4c4c; */
     color: rgb(243, 239, 239);
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
     padding-left: 0.3em;
     line-height: 36px;
@@ -323,7 +323,7 @@ textarea {
     border:#545454 solid 1px;
 }
 .jj-list-con li a img{
-    height: 11px;
+    height: 12px;
     margin: 0 2px -1px 1px;
 }
 .jj-list-con li a:hover {
