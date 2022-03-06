@@ -41,6 +41,9 @@ textarea {
 /* ================ reset 样式 end  ================ */
 .inner-center {
     width: 80vw;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
     margin: 0 auto;
 }
 .header {
