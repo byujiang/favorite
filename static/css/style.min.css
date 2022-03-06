@@ -254,7 +254,7 @@ textarea {
     min-width: 44px;
     height: 44px;
     line-height: 26px;
-    background: url(/static/img/search.png) #1890ff center no-repeat;
+    background: url(/static/img/search.png) transparent center no-repeat;
     -webkit-background-size: 30px 30px;
     background-size: 30px 30px;
     color: #fff;
