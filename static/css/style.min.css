@@ -28,7 +28,7 @@ html, body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 120%;
     min-height: 110%;
     height: auto !important;
     height: 110%;
