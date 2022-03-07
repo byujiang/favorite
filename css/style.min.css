@@ -29,9 +29,9 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* min-height: 100%+60px; */
+    min-height: 100%;
     /* height: auto !important; */
-    height: 100%+60px;
+    height: 100%;
 }
 input[type="button"], input[type="submit"], input[type="reset"] {
     -webkit-appearance: none;
@@ -50,17 +50,17 @@ textarea {
 }
 .header {
     padding-top: 10px;
-    height: 10vh;
-    min-height: 120px;
+    /* height: 10vh;
+    min-height: 120px; */
 }
 .main {
     padding-top: 20px;
     /* min-height: 100%+60px; */
     /* height: auto !important; */
-    height: 90vh;
+    /* height: 90vh; */
 }
 .content-inside {
-    padding-bottom: 76px;
+    /* padding-bottom: 36px; */
 }
 .footer {
     height: 60px;
@@ -311,7 +311,7 @@ textarea {
     height: 40px;
     box-sizing: border-box; /*以 IE 盒子模型的 width 为标准*/
     padding: 1px 1px; /*设置 div 的内边距*/
-    width: 5vw; /*div 等分成 16 部分*/
+    width: 4vw; /*div 等分成 16 部分*/
     min-width: 80px;
     float: left;
     overflow: hidden;
@@ -333,7 +333,7 @@ textarea {
 }
 .jj-list-con li a img{
     height: 12px;
-    margin: 0 2px -1px 1px;
+    margin: 0 4px -2px 2px;
 }
 .jj-list-con li a:hover {
     background: #1890FF 100%;
