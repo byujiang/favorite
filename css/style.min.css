@@ -24,7 +24,7 @@ a {
 }
 html, body {
     background: rgb(57, 57, 59);
-    background: url(/static/img/background.png) no-repeat fixed 100% 100%;
+    background: url(/img/background.png) no-repeat fixed 100% 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,7 +118,7 @@ textarea {
     width: 40px;
     align-items: center;
     justify-content: center;
-    background: url(/static/img/scgoogle.png) center center no-repeat;
+    background: url(/img/scgoogle.png) center center no-repeat;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -154,7 +154,7 @@ textarea {
 }
 .search-methods li {
     padding-left: 39px;
-    background: url(/static/img/scgoogle.png) 10px no-repeat;
+    background: url(/img/scgoogle.png) 10px no-repeat;
     background-size: 20px 20px;
     overflow: hidden;
     height: 34px;
@@ -166,34 +166,34 @@ textarea {
     background-size: 20px 20px;
 }
 .search-logo.baidu, li.baidu {
-    background-image: url(/static/img/scbaidu.png);
+    background-image: url(/img/scbaidu.png);
 }
 .search-logo.bing, li.bing {
-    background-image: url(/static/img/scbing.png);
+    background-image: url(/img/scbing.png);
 }
 .search-logo.sogou, li.sogou {
-    background-image: url(/static/img/scsogou.png);
+    background-image: url(/img/scsogou.png);
 }
 .search-logo.wangpan, li.wangpan {
-    background-image: url(/static/img/scwangpan.png);
+    background-image: url(/img/scwangpan.png);
 }
 .search-logo.so, li.so {
-    background-image: url(/static/img/scso.png);
+    background-image: url(/img/scso.png);
 }
 .search-logo.google, li.google {
-    background-image: url(/static/img/scgoogle.png);
+    background-image: url(/img/scgoogle.png);
 }
 .search-logo.jingdong, li.jingdong {
-    background-image: url(/static/img/jingdong.png);
+    background-image: url(/img/jingdong.png);
 }
 .search-logo.github, li.github {
-    background-image: url(/static/img/github.png);
+    background-image: url(/img/github.png);
 }
 .search-logo.taobao, li.taobao {
-    background-image: url(/static/img/taobao.png);
+    background-image: url(/img/taobao.png);
 }
 .search-logo.whois, li.whois {
-    background-image: url(/static/img/whois.png);
+    background-image: url(/img/whois.png);
 }
 .search-methods .search-item:hover {
     background-color: #f0f0f0;
@@ -259,7 +259,7 @@ textarea {
     min-width: 44px;
     height: 44px;
     line-height: 26px;
-    background: url(/static/img/search.png) transparent center no-repeat;
+    background: url(/img/search.png) transparent center no-repeat;
     -webkit-background-size: 30px 30px;
     background-size: 30px 30px;
     color: #fff;
