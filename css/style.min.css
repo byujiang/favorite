@@ -319,6 +319,10 @@ textarea {
     white-space: nowrap;
     margin: 4px 4px 4px 4px;
 }
+.jj-list-con li:hover{
+    transform: translate(0,-5px);
+    transition-delay: 0.2s !important;
+}
 .jj-list-con li a{
     display: block;
     /* background: #4c4c4c; */
