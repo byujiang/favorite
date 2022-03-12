@@ -318,10 +318,11 @@ textarea {
     text-overflow: ellipsis;
     white-space: nowrap;
     margin: 4px 4px 4px 4px;
+    transition: all 1s ease 0s !important;
 }
 .jj-list-con li:hover{
     transform: translate(0,-5px);
-    transition: all 1s ease 0s; !important;
+    transition: all 1s ease 0s !important;
 }
 .jj-list-con li a{
     display: block;
