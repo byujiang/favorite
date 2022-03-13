@@ -321,7 +321,7 @@ textarea {
     box-sizing: border-box; /*以 IE 盒子模型的 width 为标准*/
     padding: 1px 1px; /*设置 div 的内边距*/
     width: 4vw; /*div 等分成 16 部分*/
-    min-width: 81px;
+    min-width: 80px;
     float: left;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -347,7 +347,7 @@ textarea {
 }
 .jj-list-con li a img{
     height: 14px;
-    margin: 0 4px -2px 2px;
+    margin: 0 2px -2px 1px;
 }
 .jj-list-con li a:hover {
     background: #1890FF 100%;
@@ -359,7 +359,7 @@ textarea {
 }
 .jj-list-con li a:hover img {
     height: 14px;
-    margin: 0 4px -2px 2px;
+    margin: 0 2px -2px 1px;
 }
 /* 导航栏样式 */
 header {
