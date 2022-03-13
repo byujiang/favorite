@@ -30,6 +30,7 @@ html, body {
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
     /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%) no-repeat fixed 100% 100%; */
     /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%) ; */
+    /* background-image: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%) fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,6 +48,7 @@ textarea {
 }
 /* ================ reset 样式 end  ================ */
 .inner-center {
+        /* background-image: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%) fixed; */
     width: 80vw;
     /* min-height: 100%;
     height: auto !important;
@@ -304,7 +306,7 @@ textarea {
     line-height: 25px;
     color: rgb(237, 240, 243);
     font-weight: 700;
-    width: 100%; /*div 等分*/
+    width: 100%;
     margin: 0 0 5px 1px;
 }
 .jj-list-tit span {
@@ -319,12 +321,12 @@ textarea {
     box-sizing: border-box; /*以 IE 盒子模型的 width 为标准*/
     padding: 1px 1px; /*设置 div 的内边距*/
     width: 4vw; /*div 等分成 16 部分*/
-    min-width: 90px;
+    min-width: 81px;
     float: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 4px 4px 4px 4px;
+    margin: 2px 2px 2px 2px;
     transition: all 0.5s ease 0s !important;
 }
 .jj-list-con li:hover{
@@ -337,7 +339,7 @@ textarea {
     color: rgb(243, 239, 239);
     font-size: 14px;
     text-align: left;
-    padding-left: 0.3em;
+    padding-left: 0.1em;
     line-height: 36px;
     transition: all 0.4s;
     border-radius: 2px;
@@ -345,7 +347,7 @@ textarea {
 }
 .jj-list-con li a img{
     height: 14px;
-    margin: 0 6px -2px 2px;
+    margin: 0 4px -2px 2px;
 }
 .jj-list-con li a:hover {
     background: #1890FF 100%;
@@ -357,7 +359,7 @@ textarea {
 }
 .jj-list-con li a:hover img {
     height: 14px;
-    margin: 0 6px -2px 2px;
+    margin: 0 4px -2px 2px;
 }
 /* 导航栏样式 */
 header {
