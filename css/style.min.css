@@ -60,9 +60,9 @@ textarea {
 }
 .main {
     padding-top: 40px;
-    /* min-height: 100%+60px; */
-    height: auto !important;
-    /* height: 90%; */
+    min-height: 100vh;
+    /* height: auto !important; */
+    height: 90%;
 }
 .content-inside {
     padding-bottom: 36px;
@@ -71,7 +71,7 @@ textarea {
     height: 60px;
     text-align: center;
     /* margin-top: -80px;  */
-    position: absolute;
+    position: relative;
     bottom: 10px;
     /* position: relative;
     margin-top: -100px; 
