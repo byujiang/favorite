@@ -326,7 +326,7 @@ textarea {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 4px 4px 4px 4px;
+    margin: 4px 2px 4px 2px;
     transition: all 0.5s ease 0s !important;
 }
 .jj-list-con li:hover{
