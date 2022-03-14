@@ -352,7 +352,9 @@ textarea {
     background: #6b6b72 100%;
     font-size: 14px;
     font-weight: 400;
-    color: rgb(233, 230, 230);
+    /* margin: 0 0px -4px 0px; */
+    line-height: 30px;
+    color: rgb(235, 223, 223);
     border: 1px rgb(245, 177, 188) solid;
     border-radius: 2px;
 }
