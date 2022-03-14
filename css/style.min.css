@@ -25,12 +25,11 @@ a {
 html, body {
     background: rgb(57, 57, 59);
     /* background: url(/img/background.png) no-repeat fixed 100% 100%; */
-    /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
-    /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
-    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
-    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%) no-repeat fixed 100% 100%; */
-    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%) ; */
-    /* background-image: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%) fixed; */
+    background-image: linear-gradient(to right, #252424 0%, rgb(26, 23, 23) 10%);
+    /* background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% ); */
+    /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+    /* background-image: linear-gradient(to right, #141e30, #243b55); */
+    /* background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% ); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -336,30 +335,30 @@ textarea {
 .jj-list-con li a{
     display: block;
     /* background: #4c4c4c; */
-    color: rgb(243, 239, 239);
+    color: rgb(226, 222, 222);
     font-size: 14px;
     text-align: left;
     padding-left: 0.1em;
-    line-height: 36px;
+    line-height: 34px;
     transition: all 0.4s;
     border-radius: 2px;
     border:#545454 solid 1px;
 }
 .jj-list-con li a img{
     height: 14px;
-    margin: 0 2px -2px 1px;
+    margin: 0 4px -2px 2px;
 }
 .jj-list-con li a:hover {
-    background: #1890FF 100%;
+    background: #6b6b72 100%;
     font-size: 14px;
     font-weight: 400;
-    color: #fff;
-    border: 1px pink solid;
+    color: rgb(233, 230, 230);
+    border: 1px rgb(245, 177, 188) solid;
     border-radius: 2px;
 }
 .jj-list-con li a:hover img {
     height: 14px;
-    margin: 0 2px -2px 1px;
+    margin: 0 4px -2px 2px;
 }
 /* 导航栏样式 */
 header {
