@@ -36,6 +36,8 @@ html, body {
     background-size: cover;
     min-height: 100%;
     height: auto !important;
+    display: flex;
+    flex-direction: column;
     /* height: 100%; */
 }
 input[type="button"], input[type="submit"], input[type="reset"] {
@@ -63,6 +65,7 @@ textarea {
     padding-top: 40px;
     min-height: 70vh;
     height: auto !important;
+    flex: 1;
     /* height: 90%; */
 }
 .content-inside {
