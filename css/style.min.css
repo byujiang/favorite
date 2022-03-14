@@ -107,7 +107,7 @@ textarea {
 .search-section {
     position: relative;
     display: flex;
-    width: 50%;
+    width: 1000vw;
     min-width:250px;
     margin: 0 auto;
 }
@@ -118,12 +118,12 @@ textarea {
 }
 .search-left {
     display: flex;
-    width: 100%;
+    width: 95%;
     height: 44px;
     line-height: 20px;
-    border: 1px solid rgba(217, 217, 217, 0.96);
-    border-radius: 25px;
-    -moz-border-radius: 25px; /* Old Firefox */
+    border: 1px solid rgb(80 75 75 / 96%);
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
 }
 .search-logo {
     width: 40px;
@@ -140,8 +140,8 @@ textarea {
     opacity: 1;
     cursor: pointer;
     border: 1px solid #1890ff;
-    border-radius: 25px;
-    -moz-border-radius: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
 }
 .search-logo:hover {
     filter: grayscale(100%);
@@ -265,20 +265,21 @@ textarea {
     font-size: 20px;
 }
 .search-submit {
-    width: 5%;
+    width: 100%;
     max-width: 100px;
     min-width: 44px;
     height: 44px;
     line-height: 26px;
-    background: url(/img/search.png) transparent center no-repeat;
+    background: transparent center no-repeat;
     -webkit-background-size: 30px 30px;
     background-size: 30px 30px;
     color: #fff;
     font-size: 18px;
     text-align: center;
     font-family: 'Noto Sans SC', sans-serif;
-    border: 1px solid #d2d2d2;
+    border: 1px solid rgb(80 75 75 / 96%);
     margin-left:5px;
+    border-radius: 2px;
     cursor: pointer;
 }
 /* 搜索框 end */
