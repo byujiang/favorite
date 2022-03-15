@@ -148,10 +148,10 @@ textarea {
     -webkit-filter: grayscale(50%);
     -moz-filter: grayscale(50%);
     -o-filter: grayscale(50%);
-    filter: alpha(opacity=20);
-    -moz-opacity: 0.2;
-    -khtml-opacity: 0.2;
-    opacity: 0.2;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
 }
 .search-methods {
     display: none;
@@ -182,14 +182,8 @@ textarea {
 .search-logo.bing, li.bing {
     background-image: url(/img/scbing.png);
 }
-.search-logo.sogou, li.sogou {
-    background-image: url(/img/scsogou.png);
-}
 .search-logo.wangpan, li.wangpan {
     background-image: url(/img/scwangpan.png);
-}
-.search-logo.so, li.so {
-    background-image: url(/img/scso.png);
 }
 .search-logo.google, li.google {
     background-image: url(/img/scgoogle.png);
@@ -308,7 +302,7 @@ textarea {
     font-size: 16px;
     line-height: 25px;
     color: rgb(237, 240, 243);
-    font-weight: 700;
+    font-weight: 600;
     width: 100%;
     margin: 0 0 5px 1px;
 }
@@ -341,6 +335,7 @@ textarea {
     /* background: #4c4c4c; */
     color: rgb(226, 222, 222);
     font-size: 14px;
+    font-weight: 400;
     text-align: left;
     padding-left: 0.1em;
     line-height: 34px;
@@ -380,23 +375,28 @@ header {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 .container {
     display: grid;
-    grid-template-columns: 20% 60% 10% 10%;
+    grid-template-columns: 18% 57% 0% 26%;
     grid-template-rows: auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
     justify-items: start;
     align-items: center;
 }
 .about {
     display: inline-block;
     color: rgb(243, 239, 239);
+    width:100%;
+    margin-left:auto;
+    align-items:center;
+    margin-right: 2px;
 }
 .about a {
     color: rgb(243, 239, 239);
+    font-size:14px;
     text-decoration: none;
 }
 .about a:hover {
@@ -407,26 +407,32 @@ header {
 }
 .poem {
     color: rgb(243, 239, 239);
+    width:100%;
+    font-size: 14px;
+    border: 1px solid #4b4d4d;
+    margin:2px 0px 2px 0px;
+    border-radius: 2px;
 }
 .poem a {
     color: rgb(243, 239, 239);
     text-decoration: none;
+    font-weight: 500;
 }
 .poem a:hover {
     color: #1890ff;
 }
 .poem_sentence,
 .poem_info {
-    white-space: nowrap;
+    white-space: break-word;
     text-overflow: ellipsis;
     overflow: hidden;
 }
 .poem_info {
     font-size: small;
-    font-style: italic;
     height: 100%;
-    max-width: 50%;
+    max-width: 100%;
     min-width: 20%;
+    float: right;
 }
 .poem_info a {
     text-decoration: none;
@@ -481,13 +487,14 @@ header {
 }
 .greeting {
     display: table;
-    padding-left: 20px;
-    width: 25vw;
+    padding-left: 5px;
+    width: 100%;
 }
 .greetings {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
+    font-size:14px;
 }
 .clock {
     padding-left: 20px;

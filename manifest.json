@@ -1,16 +1,16 @@
 {
-  "name": "蜗牛个人导航",
-  "short_name": "蜗牛导航",
+  "name": "减肥の熊个人导航",
+  "short_name": "减肥の熊导航",
   "description": "机会总是垂青于有准备的人！",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "/img/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "/img/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

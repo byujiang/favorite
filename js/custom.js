@@ -340,17 +340,17 @@ var myDate = new Date();
 var hrs = myDate.getHours();
 var greet;
 if (hrs >= 0 && hrs < 6)
-    greet = '凌晨好！欢迎光临 减肥熊个人导航。';
+    greet = '凌晨好！<br /> 欢迎光临';
 else if (hrs >= 6 && hrs < 9)
-    greet = '早上好！欢迎光临 减肥熊个人导航。';
+    greet = '早上好！<br /> 欢迎光临';
 else if (hrs >= 9 && hrs < 11)
-    greet = '上午好！欢迎光临 减肥熊个人导航。';
+    greet = '上午好！<br /> 欢迎光临';
 else if (hrs >= 11 && hrs < 13)
-    greet = '中午好！欢迎光临 减肥熊个人导航。';
+    greet = '中午好！<br /> 欢迎光临';
 else if (hrs >= 13 && hrs < 18)
-    greet = '下午好！欢迎光临 减肥熊个人导航。';
+    greet = '下午好！<br /> 欢迎光临';
 else if (hrs >= 18 && hrs <= 24)
-    greet = '晚上好！欢迎光临 减肥熊个人导航。';
+    greet = '晚上好！<br /> 欢迎光临';
 document.getElementById('greetings').innerHTML = greet ;
 
 // 和风天气
@@ -385,7 +385,7 @@ xhr.onreadystatechange = function () {
     var data = JSON.parse(xhr.responseText);
     var gushici = document.getElementById('gushici');
     var poem_info = document.getElementById('poem_info');
-    gushici.innerHTML = '『' + '<a href="https://www.google.com/search?q=' + data.content + '" target="_blank" rel="noopener noreferrer">' +data.content + '</a>' + '』';
+    gushici.innerHTML = '<a href="https://www.google.com/search?q=' + data.content + '" target="_blank" rel="noopener noreferrer">' +data.content + '</a>';
     poem_info.innerHTML = '— ' + '<a href="https://www.google.com/search?q=' + data.author + ' ' + data.origin + '" target="_blank" rel="noopener noreferrer">' + data.author + '《' + data.origin + '》' + '</a>';
     }
 };
