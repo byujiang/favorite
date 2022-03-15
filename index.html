@@ -363,14 +363,14 @@
   <script crossorigin="anonymous" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" src="https://lib.baomitu.com/moment.js/2.29.1/moment.min.js"></script>
   <script src="/js/lazyload.min.js"></script>
   <script src="/js/custom.min.js"></script>
-  <script src="https://widget.qweather.net/simple/js/he-simple-common.js?v=2.0"></script>
+  <script src="//widget.qweather.net/simple/js/he-simple-common.js?v=2.0"></script>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <script>
     // Check that service workers are registered
     if ('serviceWorker' in navigator) {
       // Use the window load event to keep the page load performant
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('js/service-worker.js');
+        navigator.serviceWorker.register('/js/service-worker.js');
       });
     }
   </script>
