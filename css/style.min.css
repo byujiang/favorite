@@ -278,6 +278,7 @@ textarea {
 }
 .search-submit:hover{
     border: 1px solid pink;
+    box-shadow: 0 0 5px pink;
     border-radius: 2px;
 }
 /* 搜索框 end */
