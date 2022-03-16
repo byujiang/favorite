@@ -361,6 +361,7 @@ textarea {
     color: rgb(235, 223, 223);
     border: 1px rgb(245, 177, 188) solid;
     border-radius: 2px;
+    box-shadow: 0 0 5px pink;
 }
 .jj-list-con li a:hover img {
     height: 14px;
