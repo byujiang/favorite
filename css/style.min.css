@@ -332,6 +332,7 @@ textarea {
     transition: all 0.5s ease 0s !important;
 }
 .jj-list-con li:hover{
+    
     transform: translate(0,-5px);
     transition: all 0.5s ease 0s !important;
 }
