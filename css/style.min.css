@@ -177,7 +177,7 @@ textarea {
     background-size: 20px 20px;
 }
 .search-logo.baidu, li.baidu {
-    background-image: url(/img/scbaidu.png);
+    background-image: url(/img/baidu.png);
 }
 .search-logo.bing, li.bing {
     background-image: url(/img/scbing.png);
@@ -186,10 +186,10 @@ textarea {
     background-image: url(/img/scwangpan.png);
 }
 .search-logo.google, li.google {
-    background-image: url(/img/scgoogle.png);
+    background-image: url(/img/google.png);
 }
 .search-logo.jingdong, li.jingdong {
-    background-image: url(/img/jingdong.png);
+    background-image: url(/img/jd.png);
 }
 .search-logo.github, li.github {
     background-image: url(/img/github.png);
