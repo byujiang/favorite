@@ -107,14 +107,14 @@ textarea {
 .search-section {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 90%;
     min-width:250px;
     margin: 0 auto;
 }
 .search-section input::placeholder {
     direction: rtl;
-    text-align: left;
-    font-style: italic;
+    text-align: center;
+    font-style: normal;
 }
 .search-left {
     display: flex;
@@ -230,12 +230,12 @@ textarea {
 }
 .input-wrap .search-input {
     height: 42px;
-    width: 91%;
+    width: 100%;
     outline: 0;
     border: 0;
     font-size: 16px;
     padding-left: 5px;
-    background: transparent;
+    background: #393939;
     color: white;
 }
 /* .input-wrap .search-input:focus{
@@ -275,6 +275,10 @@ textarea {
     margin-left:5px;
     border-radius: 2px;
     cursor: pointer;
+}
+.search-submit:hover{
+    border: 1px solid pink;
+    border-radius: 2px;
 }
 /* 搜索框 end */
 /*  导航内容 start  */
@@ -409,9 +413,9 @@ header {
     color: rgb(243, 239, 239);
     width:100%;
     font-size: 14px;
-    border: 1px solid #4b4d4d;
     margin:2px 0px 2px 0px;
-    border-radius: 2px;
+    /* border: 1px solid #4b4d4d; */
+    /* border-radius: 2px; */
 }
 .poem a {
     color: rgb(243, 239, 239);
