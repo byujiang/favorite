@@ -4,9 +4,9 @@
   "description": "机会总是垂青于有准备的人！",
   "icons": [
     {
-      "src": "/img/favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "32x32",
-      "type": "image/icon",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     }
   ],

@@ -108,7 +108,7 @@ textarea {
     width: 40px;
     align-items: center;
     justify-content: center;
-    background: url(/static/img/scgoogle.png) center center no-repeat;
+    background: url(/img/google.png) center center no-repeat;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -144,7 +144,7 @@ textarea {
 }
 .search-methods li {
     padding-left: 39px;
-    background: url(/static/img/scgoogle.png) 10px no-repeat;
+    background: url(/img/google.png) 10px no-repeat;
     background-size: 20px 20px;
     overflow: hidden;
     height: 34px;
@@ -171,13 +171,13 @@ textarea {
     background-image: url(/static/img/scso.png);
 }
 .search-logo.google, li.google {
-    background-image: url(/static/img/scgoogle.png);
+    background-image: url(/img/google.png);
 }
 .search-logo.jingdong, li.jingdong {
-    background-image: url(/static/img/jingdong.png);
+    background-image: url(/img/jd.png);
 }
 .search-logo.github, li.github {
-    background-image: url(/static/img/github.png);
+    background-image: url(/img/github.png);
 }
 .search-logo.taobao, li.taobao {
     background-image: url(/static/img/taobao.png);

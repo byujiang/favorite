@@ -122,14 +122,14 @@ textarea {
     height: 44px;
     line-height: 20px;
     border: 1px solid rgb(80 75 75 / 96%);
+    -moz-border-radius: 5px;
     border-radius: 5px;
-    -moz-border-radius: 5px; /* Old Firefox */
 }
 .search-logo {
     width: 40px;
     align-items: center;
     justify-content: center;
-    background: url(/img/scgoogle.png) center center no-repeat;
+    background: url(/img/google.png) center center no-repeat;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -140,8 +140,8 @@ textarea {
     opacity: 1;
     cursor: pointer;
     border: 1px solid #5a758f;
-    border-radius: 5px;
     -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .search-logo:hover {
     filter: grayscale(50%);
@@ -165,7 +165,7 @@ textarea {
 }
 .search-methods li {
     padding-left: 39px;
-    background: url(/img/scgoogle.png) 10px no-repeat;
+    background: url(/img/google.png) 10px no-repeat;
     background-size: 20px 20px;
     overflow: hidden;
     height: 34px;
