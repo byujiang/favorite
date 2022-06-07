@@ -396,8 +396,8 @@ header {
 .about {
     display: inline-block;
     color: rgb(243, 239, 239);
-    width:100%;
-    margin-left:auto;
+    width:80%;
+    text-align: right;
     align-items:center;
     margin-right: 2px;
 }

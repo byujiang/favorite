@@ -364,6 +364,10 @@ header {
 .about {
     display: inline-block;
     color: rgb(243, 239, 239);
+    width:80%;
+    text-align: right;
+    align-items:center;
+    margin-right: 2px;
 }
 .about a {
     color: rgb(243, 239, 239);
